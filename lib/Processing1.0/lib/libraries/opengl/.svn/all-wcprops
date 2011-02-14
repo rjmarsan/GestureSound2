@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/opengl
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/opengl/.classpath
+END
+jogl-src.zip
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/opengl/jogl-src.zip
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/opengl/.project
+END

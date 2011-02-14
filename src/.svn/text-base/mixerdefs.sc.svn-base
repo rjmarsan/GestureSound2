@@ -1,0 +1,7 @@
+// this is the epic awesome mixer synthdef. one for every bus. and theres a lot of busses.
+// thankfully synths like this in supercollider are cheap and perform great
+
+(		// stereo
+		SynthDef(\StereoMixerChannel, {arg inbus=0, outbus=0, amp=0.5, pan=0.0, dur=1, gate;		 Out.ar(outbus,Limiter.ar(Pan2.ar(InFeedback.ar(inbus,2)* EnvGen.ar(Env.adsr(0.01, dur, amp, 0.7), gate, doneAction:13)*amp,pan),0.8,0.01));
+		}).store; 	
+)

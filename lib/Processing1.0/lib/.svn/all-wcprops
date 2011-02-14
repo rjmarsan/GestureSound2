@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib
+END
+jna.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/jna.jar
+END
+core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/core.jar
+END
+pde.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/pde.jar
+END
+quaqua.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/quaqua.jar
+END
+antlr.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/antlr.jar
+END
+ecj.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/ecj.jar
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library
+END
+export.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library/export.txt
+END
+rxtxSerial.dll
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library/rxtxSerial.dll
+END
+librxtxSerial.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library/librxtxSerial.jnilib
+END
+serial.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library/serial.jar
+END
+librxtxSerial.so
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library/librxtxSerial.so
+END
+RXTXcomm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/branches/munki/lib/Processing1.0/lib/libraries/serial/library/RXTXcomm.jar
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO
+END
+TuioClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioClient.java
+END
+TuioTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioTime.java
+END
+TuioContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioContainer.java
+END
+TuioListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioListener.java
+END
+TuioObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioObject.java
+END
+TuioPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioPoint.java
+END
+TuioCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TUIO/TuioCursor.java
+END

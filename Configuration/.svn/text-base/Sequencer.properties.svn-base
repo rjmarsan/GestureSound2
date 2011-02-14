@@ -1,0 +1,13 @@
+#pretty clear here how things work:
+WIDTH_IN_PIXELS = 900
+HEIGHT_IN_PIXELS = 600
+TARGET_FPS = 25
+UPDATE_DELAY = 1
+CELL_SIZE = 30
+
+WORLD_XSIZE = 30
+WORLD_YSIZE = 20
+
+NUM_SYNTHS=5
+
+

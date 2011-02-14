@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/JCollider/build/JCollider.jar" sourcepath="lib/JCollider/src"/>
+	<classpathentry exported="true" kind="lib" path="lib/TUIO_JAVA/libTUIO.jar" sourcepath="lib/TUIO_JAVA/src"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/antlr.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/core.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/ecj.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/jna.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/pde.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/quaqua.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt-natives-linux-i586.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="TacchiTest/lib/Processing1.0/lib/libraries/opengl/library"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt-natives-macosx-ppc.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/munki/workspace/Tacchi/lib/Processing1.0/lib/libraries/opengl/library"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/gluegen-rt.jar.pack.gz"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl-natives-linux-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl-natives-macosx-ppc.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl-natives-windows-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl.jar"/>
+	<classpathentry kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/jogl.jar.pack.gz"/>
+	<classpathentry exported="true" kind="lib" path="lib/Processing1.0/lib/libraries/opengl/library/opengl.jar"/>
+	<classpathentry kind="lib" path="lib/JavaGestureServer1.0.0b.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

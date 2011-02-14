@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/compile.sh
+END
+TuioDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TuioDemo.java
+END
+TuioApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TuioApplet.java
+END
+TuioDump.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TuioDump.java
+END
+TuioDemoComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TuioDemoComponent.java
+END
+TuioDemoObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/TuioDemoObject.java
+END
+compile.bat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/compile.bat
+END
+doc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/doc.sh
+END
+manifest.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/branches/munki/lib/TUIO_JAVA/src/manifest.inc
+END

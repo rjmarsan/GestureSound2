@@ -1,0 +1,71 @@
+import TUIO.TuioClient;
+import processing.core.PApplet;
+import tacchi.test.graphics.Squiggly;
+import tacchi.test.jcollider.SCMixer;
+import tacchi.test.jcollider.SCTest;
+import tacchi.test.main.Preferences;
+import tacchi.test.tuio.GestureManager;
+//import tacchi.test.tuio.TuioTracker;
+
+
+@SuppressWarnings("unused")
+public class TacchiTest extends PApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public GestureManager tracker;
+	public SCTest supercollider;
+	public SCMixer scmixer;
+	public TuioClient c;
+	public Squiggly squiggly;
+	
+	
+	public static void main(String args[]) {
+		  PApplet.main(new String[] {  "--present", "TacchiTest" });
+		  
+	} 
+	
+	public TacchiTest() {
+		System.out.println("Setting up TacchiTest.....");
+		Preferences.fillVariables();
+		
+		//set up supercollider:
+		supercollider = SCTest.getInstance();
+		scmixer = supercollider.getMixer();
+		
+		//set up TUIO
+		c = new TuioClient();
+		tracker=  GestureManager.getInstance();
+		c.addTuioListener(tracker);
+		c.connect();
+		System.out.println("TUIO should be set up");
+		squiggly = new Squiggly();
+	}
+	
+	/**
+	 * if you haven't worked with processing: This is called at setup
+	 */
+	public void setup() {
+		size(Preferences.WIDTH_IN_PIXELS, Preferences.HEIGHT_IN_PIXELS, OPENGL);  //we can go with JAVA2D if we don't like OPENGL
+		//smooth();
+		hint( ENABLE_OPENGL_4X_SMOOTH );
+		frameRate(Preferences.TARGET_FPS);
+		colorMode(RGB, 255);
+		textFont(loadFont("AmericanTypewriter-24.vlw"));
+	 	
+		System.out.println("All set up!");
+	}
+
+	/**
+	 * This should obviously call a draw manager or something, but for now
+	 * it'll draw a cute rectangle. that moves.
+	 */
+	public void draw() {
+		background(30);
+		squiggly.draw(this);
+	}
+
+	
+
+}

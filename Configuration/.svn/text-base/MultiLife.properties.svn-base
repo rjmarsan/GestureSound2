@@ -1,0 +1,13 @@
+#pretty clear here how things work:
+WIDTH_IN_PIXELS = 800
+HEIGHT_IN_PIXELS = 600
+TARGET_FPS = 10
+UPDATE_DELAY = 1
+CELL_SIZE = 10
+
+WORLD_XSIZE = 80
+WORLD_YSIZE = 60
+
+MAX_CURSORS = 50
+
+

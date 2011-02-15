@@ -41,6 +41,7 @@ public class WekaInstrument extends Controller implements TouchListener  {
 	public void setupUI(PApplet p) {
 		wekaview = new WekaInstrumentView(p);
 		this.setView(wekaview);
+		wekaview.addTouchListener(this);
 		
 		canvas = new CanvasController();
 		addChildController(canvas);
@@ -58,8 +59,38 @@ public class WekaInstrument extends Controller implements TouchListener  {
 	}
 	
 	
+	/**
+	 * Set the global state of the WekaInstrument.   
+	 * This is about the only time I found it necessary to forward a child object's functions through us.
+	 * mainly because this is what the program's all about.
+	 */
+	public void perform() {
+		this.mode = PERFORMING;
+	}
+	public void record() {
+		this.mode = RECORDING;
+	}
+	public void train() {
+		this.mode = TRAINING;
+		//we actually need to train things at this point.
+	}
+	public void doNothing() {
+		this.mode = NOTHING;
+	}
+	public int mode() {
+		return this.mode;
+	}
 	
 	
+	/**
+	 * These get forwarded to the ExtractionManager and start that input chain.
+	 * basically:
+	 * TouchEvent -> WekaInstrument vv
+	 *                       ExtractionManager vv-> Canvas -> visuals
+	 *                                     WekinatorManager vv
+	 *                                             InstrumentManager vv-> InstrumentView 
+	 *                                                             SOUND!
+	 */
 	public void touchDown(Cursor c) {
 		
 	}
